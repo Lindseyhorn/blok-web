@@ -9,8 +9,24 @@ button, summary {
 	cursor: pointer;
 }
 
+/****************/
+/*lettertypes*/
+/*****************/
 
+@font-face {
+	font-family: koptest;
+	src: url(../lettertypes/Lato/Lato-Light.ttf);
+}
 
+@font-face {
+	font-family: kopjes;
+	src: url(../lettertypes/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+	font-family: Dierletters;
+	src: url(../lettertypes/Frijole/Frijole-Regular.ttf);
+}
 
 
 /*********************/
@@ -19,7 +35,7 @@ button, summary {
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:rgb(255, 255, 255);
 }
 
 
@@ -32,8 +48,440 @@ button, summary {
 
 /* jouw code */
 
+
 body {
   color:var(--color-text);
   background-color:var(--color-background);
+  margin: 0em;
 }
+a{
+	font-family: koptest;
+}
+
+h1{
+	font-family: dierletters;
+	color: white;
+	font-size: 1.5em;
+	position: absolute;
+	margin-top: -4.5em;
+	margin-left: 0.5em;
+
+}
+
+h2{
+	font-family: kopjes;
+}
+
+h3{
+	font-family: dierletters;
+	font-size: 1em;
+}
+
+p{
+	font-family: koptest;
+}
+
+li{
+	font-family: koptest;
+}
+/****************/
+/* HEADER*/
+/****************/
+
+header{
+	display: flex;
+	background-color: rgb(248, 244, 238);
+	width: 100%;
+	height: 3.5em;
+	
+}
+
+header, img{
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-right: 2.5em;
+
+}
+
+/****************/
+/* MAIN*/
+/****************/
+
+video{
+	display: block;
+	width: 100%;
+
+}
+
+
+main>p{
+	position: absolute;
+	margin-top: -4em;
+	margin-left: 7em;
+	color: white;
+	font-weight: bolder;
+	
+}
+
+/****************/
+/*  bovenstukje /*
+/****************/
+section:nth-of-type(1){
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+	justify-content: space-around;
+	margin-bottom: 1em;
+	
+}
+section:nth-of-type(1) a{
+	flex-direction: row;
+	text-decoration: none;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	color: black;
+	margin-top: 1em;
+	align-content: space-between;
+	text-align: center;
+	flex-basis: 20%;
+	margin-left: 1em;
+
+}
+
+section:nth-of-type(1) p {
+padding: 1em;
+} 
+
+section:nth-of-type(1) img:nth-of-type(1){
+	margin-left: 1em;
+}
+
+
+/****************/
+/* */
+/****************/
+
+/****************/
+/* 3 vakjes*/
+/****************/
+
+
+section:nth-of-type(2) article:nth-of-type(1){
+	background-color: rgba(243, 242, 242, 0.918);
+	border: rgba(243, 242, 242, 0.918);
+	margin: 1em 1em 1em 1em;
+	
+}
+section:nth-of-type(2) article:nth-of-type(1) img:nth-of-type(1){
+	width: 100%;
+	padding: 0em;
+	
+}
+
+section:nth-of-type(2) h2:nth-of-type(1)  {
+	margin-left: 0.5em;
+}
+
+section:nth-of-type(2) p:nth-of-type(1)  {
+	margin-left: 1em;
+	
+}
+
+section:nth-of-type(2) a:nth-of-type(1) {
+	border: rgb(240, 213, 65);
+	background-color:rgb(240, 213, 65) ;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+section:nth-of-type(2) article:nth-of-type(2){
+	background-color: rgba(243, 242, 242, 0.918);
+	border: rgba(243, 242, 242, 0.918);
+	margin: 2em 1em 1em 1em;
+	
+}
+section:nth-of-type(2) article:nth-of-type(2) img:nth-of-type(1){
+	width: 100%;
+	padding: 0em;
+	
+}
+
+section:nth-of-type(2) h2:nth-of-type(2)  {
+	margin-left: 0.5em;
+}
+
+section:nth-of-type(2) p:nth-of-type(2)  {
+	margin-left: 1em;
+}
+
+section:nth-of-type(2) a:nth-of-type(2) {
+	border: rgb(240, 213, 65);
+	background-color:rgb(240, 213, 65) ;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+section:nth-of-type(2) article:nth-of-type(3){
+	background-color: rgba(243, 242, 242, 0.918);
+	border: rgba(243, 242, 242, 0.918);
+	margin: 2em 1em 1em 1em;
+	
+}
+section:nth-of-type(2) article:nth-of-type(3) img:nth-of-type(1){
+	width: 100%;
+	padding: 0em;
+	
+}
+
+section:nth-of-type(2) h2:nth-of-type(3)  {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+section:nth-of-type(2) p:nth-of-type(3)  {
+	margin-left: 1em;
+}
+
+section:nth-of-type(2) a:nth-of-type(3) {
+	border: rgb(240, 213, 65);
+	background-color:rgb(240, 213, 65) ;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+
+
+/****************/
+/* tussenstukje*/
+/****************/
+
+section:nth-of-type(3) article:nth-of-type(1) p:nth-of-type(1){
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+section:nth-of-type(3) article:nth-of-type(1) a {
+	
+	text-decoration: none;
+	color: rgb(37, 131, 175);
+	border: rgb(194, 251, 255);
+	background-color:rgb(194, 251, 255) ;
+	border-radius: 20px;
+	padding: 0.75em;
+	margin: 1.5em;
+	
+}
+
+section:nth-of-type(3) article:nth-of-type(1) a {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+	justify-content: space-around;
+}
+
+section:nth-of-type(3) article:nth-of-type(2){
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+/****************/
+/* 3 soorten reizen*/
+/****************/
+
+section:nth-of-type(4) img:nth-of-type(1){
+	width: 90%;
+	margin-left: 1.25em;
+	margin-top: 2em;
+}
+
+section:nth-of-type(4) p:nth-of-type(1){
+
+	margin-top: -60em;
+	color: white;
+	text-align: center;
+}
+
+section:nth-of-type(4) h3:nth-of-type(1){
+	color: white;
+	text-align: center;
+	margin-left: 4em;
+	margin-right: 4em;
+	
+}
+section:nth-of-type(4) article:nth-of-type(1) img{
+	width: 90%;
+	margin-left: 1.3em;
+	margin-top: 2em;
+}
+section:nth-of-type(4) article:nth-of-type(1) h3{
+	margin-top: -12em;
+	position: absolute;
+	margin-left: 8.5em;
+}
+
+section:nth-of-type(4) article:nth-of-type(1) a{
+	border: rgb(240, 213, 65);
+	background-color:rgb(240, 213, 65) ;
+	border-radius: 5px;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 0.5em;
+	position: absolute;
+	margin-top: -10em;
+	margin-left: 8.25em;
+}
+
+/****************/
+section:nth-of-type(4) article:nth-of-type(2) img{
+	width: 90%;
+	margin-left: 1.3em;
+	margin-top: 2em;
+}
+section:nth-of-type(4) article:nth-of-type(2) h3{
+	position: absolute;
+	margin-top: -12em;
+	margin-left: 8.5em;
+}
+
+section:nth-of-type(4) article:nth-of-type(2) a{
+	border: rgb(240, 213, 65);
+	background-color:rgb(240, 213, 65) ;
+	border-radius: 5px;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 0.5em;
+	position: absolute;
+	margin-top: -10em;
+	margin-left: 8.25em;
+}
+
+/****************/
+section:nth-of-type(4) article:nth-of-type(3) img{
+	width: 90%;
+	margin-left: 1.3em;
+	margin-top: 2em;
+}
+section:nth-of-type(4) article:nth-of-type(3) h3{
+	margin-top: -12em;
+}
+
+section:nth-of-type(4) article:nth-of-type(3) a{
+	border: rgb(240, 213, 65);
+	background-color:rgb(240, 213, 65) ;
+	border-radius: 5px;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 0.5em;
+	margin-top: 20em;
+	margin-left: 8.25em;
+}
+
+/****************/
+/* einde 3 soorten reizen*/
+/****************/
+
+
+
+/****************/
+/* footer 1*/
+/****************/
+
+footer:nth-of-type(1) li{
+	color: white;
+	text-align: center;
+	list-style-type: none;
+	margin: 8px ;
+	display: flex;
+	justify-content: center;
+}
+
+
+footer:nth-of-type(1){
+	background-color: rgb(39, 24, 24);
+	margin-top: 8em;
+	padding: 10px 10px 5em 10px;
+}
+
+ul{
+	margin: 0em;
+	padding: 0em;
+}
+
+
+
+footer:nth-of-type(1) a {
+	text-decoration: none;
+	color: white;
+	border: 0.125rem solid rgb(255, 255, 255);
+	margin-top: 1em;
+	padding: 0.5em;
+	display: flex;
+	justify-content: start;
+	margin-right: 2em;
+	margin-left: 2em;
+	border-radius: 5px;
+	
+}
+
+footer:nth-of-type(1) img{
+	display: flex;
+	justify-content: center;
+	padding: 2em;
+	margin-left: 6.5em;
+}
+
+
+
+
+
+/****************/
+/* footer 2 */
+/****************/
+
+footer:nth-of-type(2){
+	position: fixed;
+    bottom: 0px;
+	background-color: white;
+	height: 4.5em;
+}
+
+footer:nth-of-type(2){
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+	justify-content: space-around;
+}
+
+footer:nth-of-type(2) a{
+	flex-direction: row;
+	text-decoration: none;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	color: black;
+	align-content: space-between;
+	text-align: center;
+	margin: 0.2em;	
+}
+
+footer:nth-of-type(2) img{
+	padding: 0em;
+}
+
+/****************/
+/*  */
+/****************/
 
