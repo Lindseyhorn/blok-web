@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  helemaal responsive
+  Nog geen keuze kunnen maken
  
 </details>
 
@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Wildlands home pagina 
   <img src="readme-images/wildlands1.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Wildlands tickets pagina
   <img src="readme-images/wildlands2.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
