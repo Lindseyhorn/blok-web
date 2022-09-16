@@ -1,0 +1,340 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+    box-sizing:border-box;  
+  }
+  
+  button, summary {
+      cursor: pointer;
+  }
+  
+  /****************/
+  /*lettertypes   */
+  /****************/
+  
+  @font-face {
+      font-family: koptest;
+      src: url(../lettertypes/Lato/Lato-Light.ttf);
+  }
+  
+  @font-face {
+      font-family: kopjes;
+      src: url(../lettertypes/Lato/Lato-Regular.ttf);
+  }
+  
+  @font-face {
+      font-family: Dierletters;
+      src: url(../lettertypes/Frijole/Frijole-Regular.ttf);
+  }
+  
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+      /* startje */
+      --color-text:#111;
+      --color-background:rgb(255, 255, 255);
+  }
+  
+  
+  
+  
+  
+  /****************/
+  /* JOUW STYLING */
+  /****************/
+  
+  /* jouw code */
+  
+  
+  body {
+    color:var(--color-text);
+    background-color:var(--color-background);
+    margin: 0em;
+  }
+  a{
+      font-family: koptest;
+  }
+  
+  h1{
+      margin: 0;
+  }
+  
+  h2{
+      font-family: kopjes;
+  }
+  
+  h3{
+      font-family: dierletters;
+      font-size: 1em;
+  }
+  
+  p{
+      font-family: koptest;
+  }
+  
+  li{
+      font-family: koptest;
+  }
+
+  /****************/
+/* HEADER*/
+/****************/
+
+header{
+	display: flex;
+	background-color: rgb(248, 244, 238);
+	width: 100%;
+	height: 3.5em;
+	padding-left: 1em;
+	
+}
+
+header, img{
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-right: 2em;
+
+}
+
+header> img{
+	margin-left: 0.5em;
+}
+
+  /****************/
+/* Main*/
+/****************/
+
+section:nth-of-type(1) img{
+    display: block;
+	width: 100%;
+    height: 125px;
+    padding: 0em;
+}
+
+section:nth-of-type(1) div {
+    display: flex;
+    justify-content: start;
+}
+
+section:nth-of-type(1)  a{
+    color: black;
+    text-decoration: none;
+    margin: 0.5em;
+    margin-left: 1em;
+}
+
+section:nth-of-type(1) div a:nth-of-type(2){
+    text-decoration: underline;
+}
+
+
+
+  /****************/
+/* 3 blokjes*/
+/****************/
+
+section:nth-of-type(2) article:nth-of-type(1){
+	background-color: rgba(243, 242, 242, 0.918);
+	border: rgba(243, 242, 242, 0.918);
+	margin: 1em 1em 1em 1em;
+	
+}
+section:nth-of-type(2) article:nth-of-type(1) img:nth-of-type(1){
+	width: 100%;
+	padding: 0em;
+	
+}
+
+section:nth-of-type(2) h2:nth-of-type(1)  {
+	margin-left: 0.5em;
+}
+
+section:nth-of-type(2) p:nth-of-type(1)  {
+	margin-left: 1em;
+	
+}
+
+section:nth-of-type(2) a:nth-of-type(1) {
+	border: rgb(240, 213, 65);
+	background-color:rgb(240, 213, 65) ;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	padding: 0.5em;
+	margin: 1em;
+}
+/****************/
+section:nth-of-type(2) article:nth-of-type(2){
+	background-color: rgba(243, 242, 242, 0.918);
+	border: rgba(243, 242, 242, 0.918);
+	margin: 2em 1em 1em 1em;
+	
+}
+section:nth-of-type(2) article:nth-of-type(2) img:nth-of-type(1){
+	width: 100%;
+	padding: 0em;
+	
+}
+
+section:nth-of-type(2) h2:nth-of-type(2)  {
+	margin-left: 0.5em;
+}
+
+section:nth-of-type(2) p:nth-of-type(2)  {
+	margin-left: 1em;
+}
+
+section:nth-of-type(2) a:nth-of-type(2) {
+	border: rgb(240, 213, 65);
+	background-color:rgb(240, 213, 65) ;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+/****************/
+section:nth-of-type(2) article:nth-of-type(3){
+	background-color: rgba(243, 242, 242, 0.918);
+	border: rgba(243, 242, 242, 0.918);
+	margin: 2em 1em 1em 1em;
+	
+}
+section:nth-of-type(2) article:nth-of-type(3) img:nth-of-type(1){
+	width: 100%;
+	padding: 0em;
+	
+}
+
+section:nth-of-type(2) h2:nth-of-type(3)  {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+section:nth-of-type(2) p:nth-of-type(3)  {
+	margin-left: 1em;
+}
+
+section:nth-of-type(2) a:nth-of-type(3) {
+	border: rgb(240, 213, 65);
+	background-color:rgb(240, 213, 65) ;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+  /****************/
+/* abonnement*/
+/****************/
+
+section:nth-of-type(3) img{
+    width: 95%;
+    
+}
+
+section:nth-of-type(3){
+    margin-left: 1em;
+}
+
+
+
+
+
+
+
+
+/****************/
+/* footer 1*/
+/****************/
+
+footer:nth-of-type(1) li{
+	color: white;
+	text-align: center;
+	list-style-type: none;
+	margin: 8px ;
+	display: flex;
+	justify-content: center;
+}
+
+
+footer:nth-of-type(1){
+	background-color: rgb(39, 24, 24);
+	margin-top: 2em;
+	padding: 10px 10px 5em 10px;
+}
+
+ul{
+	margin: 0em;
+	padding: 0em;
+}
+
+footer:nth-of-type(1) a {
+	text-decoration: none;
+	color: white;
+	border: 0.125rem solid rgb(255, 255, 255);
+	margin-top: 1em;
+	padding: 0.5em;
+	display: flex;
+	justify-content: start;
+	margin-right: 2em;
+	margin-left: 2em;
+	border-radius: 5px;
+	
+}
+
+footer:nth-of-type(1) img{
+	display: flex;
+	justify-content: center;
+	padding: 2em;
+	margin-left: 6.5em;
+}
+
+
+
+
+
+/****************/
+/* footer 2 */
+/****************/
+
+footer:nth-of-type(2){
+	position: fixed;
+    bottom: 0px;
+	background-color: white;
+	height: 4.5em;
+}
+
+footer:nth-of-type(2){
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+	justify-content: space-around;
+}
+
+footer:nth-of-type(2) a{
+	flex-direction: row;
+	text-decoration: none;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	color: black;
+	align-content: space-between;
+	text-align: center;
+	margin: 0.2em;	
+}
+
+footer:nth-of-type(2) img{
+    margin: 0em;
+    padding: 0em;
+}
+/****************/
+/*  */
+/****************/
