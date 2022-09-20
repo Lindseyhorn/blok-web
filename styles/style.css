@@ -36,9 +36,20 @@ button, summary {
 	/* startje */
 	--color-text:#111;
 	--color-background:rgb(255, 255, 255);
+	--color-link1: black;
+	--color-link2: rgb(255, 255, 255);
+	--color-stukjes: black;
+	--color-blokje:  rgba(243, 242, 242, 0.918);
 }
 
+.dark_mode {
+	--color-text:#fff;
+	--color-background:#000;
+	--color-link1: rgb(255, 255, 255);
+	--color-link2: rgb(0, 0, 0);
+	--color-blokje: white;
 
+}
 
 
 
@@ -64,6 +75,7 @@ h1{
 
 h2{
 	font-family: kopjes;
+	color: var(--color-stukjes);
 }
 
 h3{
@@ -73,11 +85,13 @@ h3{
 
 p{
 	font-family: koptest;
+	color: var(--color-stukjes);
 }
 
 li{
 	font-family: koptest;
 }
+
 /****************/
 /* HEADER*/
 /****************/
@@ -88,6 +102,7 @@ header{
 	width: 100%;
 	height: 3.5em;
 	padding-left: 1em;
+	position: relative;
 	
 }
 
@@ -102,6 +117,22 @@ header, img{
 
 header> img{
 	margin-left: 0.5em;
+}
+
+main > button{
+	position:absolute;
+	margin-left: 1em;
+	margin-top: -14em;
+	padding: 0.5em;
+	font-family: kopjes;
+	color: white;
+	background-color: rgb(51, 36, 36);
+	border-radius: 5px;
+	border: 1px solid white;
+	width: 115px;
+	height: 35px;
+	
+
 }
 
 /****************/
@@ -144,17 +175,18 @@ section:nth-of-type(1){
 	margin-bottom: 1em;
 	
 }
-section:nth-of-type(1) a{
+section:nth-of-type(1) a {
 	flex-direction: row;
 	text-decoration: none;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	color: black;
+	
 	margin-top: 1em;
 	align-content: space-between;
 	text-align: center;
 	flex-basis: 20%;
 	margin-left: 1em;
+	color: var(--color-link1);
 
 }
 
@@ -177,8 +209,8 @@ section:nth-of-type(1) img:nth-of-type(1){
 
 
 section:nth-of-type(2) article:nth-of-type(1){
-	background-color: rgba(243, 242, 242, 0.918);
-	border: rgba(243, 242, 242, 0.918);
+	background-color: var(--color-blokje);
+	border: var(--color-blokje);
 	margin: 1em 1em 1em 1em;
 	
 }
@@ -202,14 +234,14 @@ section:nth-of-type(2) a:nth-of-type(1) {
 	background-color:rgb(240, 213, 65) ;
 	border-radius: 5px;
 	text-decoration: none;
-	color: white;
+	color: var(--color-link2);
 	padding: 0.5em;
 	margin: 1em;
 }
 
 section:nth-of-type(2) article:nth-of-type(2){
-	background-color: rgba(243, 242, 242, 0.918);
-	border: rgba(243, 242, 242, 0.918);
+	background-color:var(--color-blokje);
+	border: var(--color-blokje);
 	margin: 2em 1em 1em 1em;
 	
 }
@@ -232,14 +264,14 @@ section:nth-of-type(2) a:nth-of-type(2) {
 	background-color:rgb(240, 213, 65) ;
 	border-radius: 5px;
 	text-decoration: none;
-	color: white;
+	color: var(--color-link2);
 	padding: 0.5em;
 	margin: 1em;
 }
 
 section:nth-of-type(2) article:nth-of-type(3){
-	background-color: rgba(243, 242, 242, 0.918);
-	border: rgba(243, 242, 242, 0.918);
+	background-color: var(--color-blokje);
+	border: var(--color-blokje);
 	margin: 2em 1em 1em 1em;
 	
 }
@@ -263,7 +295,7 @@ section:nth-of-type(2) a:nth-of-type(3) {
 	background-color:rgb(240, 213, 65) ;
 	border-radius: 5px;
 	text-decoration: none;
-	color: white;
+	color: var(--color-link2);
 	padding: 0.5em;
 	margin: 1em;
 }
@@ -277,6 +309,7 @@ section:nth-of-type(2) a:nth-of-type(3) {
 section:nth-of-type(3) article:nth-of-type(1) p:nth-of-type(1){
 	margin-left: 2em;
 	margin-top: 2em;
+	
 }
 
 section:nth-of-type(3) article:nth-of-type(1) a {
@@ -302,6 +335,10 @@ section:nth-of-type(3) article:nth-of-type(1) a {
 section:nth-of-type(3) article:nth-of-type(2){
 	margin-left: 2em;
 	margin-right: 2em;
+}
+
+section:nth-of-type(3) article:nth-of-type(2) p{
+	color: var(--color-link1);
 }
 
 /****************/
@@ -344,7 +381,7 @@ section:nth-of-type(4) article:nth-of-type(1) a{
 	background-color:rgb(240, 213, 65) ;
 	border-radius: 5px;
 	text-decoration: none;
-	color: rgb(0, 0, 0);
+	color: var(--color-link1);
 	padding: 0.5em;
 	position: absolute;
 	margin-top: -10em;
@@ -368,7 +405,7 @@ section:nth-of-type(4) article:nth-of-type(2) a{
 	background-color:rgb(240, 213, 65) ;
 	border-radius: 5px;
 	text-decoration: none;
-	color: rgb(0, 0, 0);
+	color: var(--color-link1);
 	padding: 0.5em;
 	position: absolute;
 	margin-top: -10em;
@@ -390,7 +427,7 @@ section:nth-of-type(4) article:nth-of-type(3) a{
 	background-color:rgb(240, 213, 65) ;
 	border-radius: 5px;
 	text-decoration: none;
-	color: rgb(0, 0, 0);
+	color: var(--color-link1);
 	padding: 0.5em;
 	margin-top: 20em;
 	margin-left: 8.25em;
@@ -485,4 +522,6 @@ footer:nth-of-type(2) img{
 /****************/
 /*  */
 /****************/
+
+
 
