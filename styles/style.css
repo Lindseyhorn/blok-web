@@ -129,7 +129,7 @@ main > button{
 	background-color: rgb(51, 36, 36);
 	border-radius: 5px;
 	border: 1px solid white;
-	width: 115px;
+	width: 75px;
 	height: 35px;
 	
 
@@ -146,12 +146,13 @@ video{
 }
 
 
-main>p{
+main>a{
 	position: absolute;
 	margin-top: -4em;
 	margin-left: 7em;
 	color: white;
 	font-weight: bolder;
+	text-decoration: none;
 	
 }
 main> h2{

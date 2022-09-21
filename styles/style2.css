@@ -32,14 +32,26 @@
   /*********************/
   /* CUSTOM PROPERTIES */
   /*********************/
+  
+  
   :root {
-      /* startje */
-      --color-text:#111;
-      --color-background:rgb(255, 255, 255);
-  }
-  
-  
-  
+	/* startje */
+	--color-text:#111;
+	--color-background:rgb(255, 255, 255);
+	--color-link1: black;
+	--color-link2: rgb(255, 255, 255);
+	--color-stukjes: black;
+	--color-blokje:  rgba(243, 242, 242, 0.918);
+}
+
+.dark_mode {
+	--color-text:#fff;
+	--color-background:#000;
+	--color-link1: rgb(255, 255, 255);
+	--color-link2: rgb(0, 0, 0);
+	--color-blokje: white;
+
+}
   
   
   /****************/
@@ -130,7 +142,7 @@ section:nth-of-type(1) div {
 }
 
 section:nth-of-type(1)  a{
-    color: black;
+    color:var(--color-link1);
     text-decoration: none;
     margin: 0.5em;
     margin-left: 1em;
@@ -147,8 +159,8 @@ section:nth-of-type(1) div a:nth-of-type(2){
 /****************/
 
 section:nth-of-type(2) article:nth-of-type(1){
-	background-color: rgba(243, 242, 242, 0.918);
-	border: rgba(243, 242, 242, 0.918);
+	background-color:var(--color-blokje);
+	border: var(--color-blokje);
 	margin: 1em 1em 1em 1em;
 	
 }
@@ -160,10 +172,12 @@ section:nth-of-type(2) article:nth-of-type(1) img:nth-of-type(1){
 
 section:nth-of-type(2) h2:nth-of-type(1)  {
 	margin-left: 0.5em;
+	color: black;
 }
 
 section:nth-of-type(2) p:nth-of-type(1)  {
 	margin-left: 1em;
+	color: black;
 	
 }
 
@@ -172,14 +186,14 @@ section:nth-of-type(2) a:nth-of-type(1) {
 	background-color:rgb(240, 213, 65) ;
 	border-radius: 5px;
 	text-decoration: none;
-	color: white;
+	color: var(--color-link2);
 	padding: 0.5em;
 	margin: 1em;
 }
 /****************/
 section:nth-of-type(2) article:nth-of-type(2){
-	background-color: rgba(243, 242, 242, 0.918);
-	border: rgba(243, 242, 242, 0.918);
+	background-color: var(--color-blokje);
+	border: var(--color-blokje);
 	margin: 2em 1em 1em 1em;
 	
 }
@@ -191,10 +205,12 @@ section:nth-of-type(2) article:nth-of-type(2) img:nth-of-type(1){
 
 section:nth-of-type(2) h2:nth-of-type(2)  {
 	margin-left: 0.5em;
+	color: black;
 }
 
 section:nth-of-type(2) p:nth-of-type(2)  {
 	margin-left: 1em;
+	color: black;
 }
 
 section:nth-of-type(2) a:nth-of-type(2) {
@@ -202,15 +218,15 @@ section:nth-of-type(2) a:nth-of-type(2) {
 	background-color:rgb(240, 213, 65) ;
 	border-radius: 5px;
 	text-decoration: none;
-	color: white;
+	color:var(--color-link2);
 	padding: 0.5em;
 	margin: 1em;
 }
 
 /****************/
 section:nth-of-type(2) article:nth-of-type(3){
-	background-color: rgba(243, 242, 242, 0.918);
-	border: rgba(243, 242, 242, 0.918);
+	background-color: var(--color-blokje);
+	border: var(--color-blokje);
 	margin: 2em 1em 1em 1em;
 	
 }
@@ -223,10 +239,12 @@ section:nth-of-type(2) article:nth-of-type(3) img:nth-of-type(1){
 section:nth-of-type(2) h2:nth-of-type(3)  {
 	margin-left: 0.5em;
 	margin-right: 0.5em;
+	color: black;
 }
 
 section:nth-of-type(2) p:nth-of-type(3)  {
 	margin-left: 1em;
+	color: black;
 }
 
 section:nth-of-type(2) a:nth-of-type(3) {
@@ -234,7 +252,7 @@ section:nth-of-type(2) a:nth-of-type(3) {
 	background-color:rgb(240, 213, 65) ;
 	border-radius: 5px;
 	text-decoration: none;
-	color: white;
+	color: var(--color-link2);
 	padding: 0.5em;
 	margin: 1em;
 }
@@ -359,3 +377,18 @@ footer:nth-of-type(2) img:nth-of-type(3){
 /****************/
 /*  */
 /****************/
+
+ button{
+	position:absolute;
+	margin-left: 1em;
+	margin-top: 1em;
+	padding: 0.5em;
+	font-family: kopjes;
+	color: white;
+	background-color: rgb(51, 36, 36);
+	border-radius: 5px;
+	border: 1px solid white;
+	width: 75px;
+	height: 35px;
+
+}
