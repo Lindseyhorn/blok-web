@@ -40,6 +40,8 @@ button, summary {
 	--color-link2: rgb(255, 255, 255);
 	--color-stukjes: black;
 	--color-blokje:  rgba(243, 242, 242, 0.918);
+	--color-button:rgb(240, 213, 65);
+
 }
 
 .dark_mode {
@@ -51,7 +53,15 @@ button, summary {
 
 }
 
-
+.halloween_mode{
+	--color-text:#111;
+	--color-background:rgb(255, 255, 255);
+	--color-link1: black;
+	--color-link2: rgb(255, 255, 255);
+	--color-stukjes: black;
+	--color-blokje:  rgba(243, 242, 242, 0.918);
+	--color-button:rgb(240, 150, 65);
+}
 
 /****************/
 /* JOUW STYLING */
@@ -231,8 +241,8 @@ section:nth-of-type(2) p:nth-of-type(1)  {
 }
 
 section:nth-of-type(2) a:nth-of-type(1) {
-	border: rgb(240, 213, 65);
-	background-color:rgb(240, 213, 65) ;
+	border:var(--color-button);
+	background-color:var(--color-button);
 	border-radius: 5px;
 	text-decoration: none;
 	color: var(--color-link2);
@@ -261,8 +271,8 @@ section:nth-of-type(2) p:nth-of-type(2)  {
 }
 
 section:nth-of-type(2) a:nth-of-type(2) {
-	border: rgb(240, 213, 65);
-	background-color:rgb(240, 213, 65) ;
+	border: var(--color-button);
+	background-color:var(--color-button) ;
 	border-radius: 5px;
 	text-decoration: none;
 	color: var(--color-link2);
@@ -292,8 +302,8 @@ section:nth-of-type(2) p:nth-of-type(3)  {
 }
 
 section:nth-of-type(2) a:nth-of-type(3) {
-	border: rgb(240, 213, 65);
-	background-color:rgb(240, 213, 65) ;
+	border: var(--color-button);
+	background-color:var(--color-button) ;
 	border-radius: 5px;
 	text-decoration: none;
 	color: var(--color-link2);
@@ -378,8 +388,8 @@ section:nth-of-type(4) article:nth-of-type(1) h3{
 }
 
 section:nth-of-type(4) article:nth-of-type(1) a{
-	border: rgb(240, 213, 65);
-	background-color:rgb(240, 213, 65) ;
+	border: var(--color-button);
+	background-color:var(--color-button) ;
 	border-radius: 5px;
 	text-decoration: none;
 	color: var(--color-link1);
@@ -402,8 +412,8 @@ section:nth-of-type(4) article:nth-of-type(2) h3{
 }
 
 section:nth-of-type(4) article:nth-of-type(2) a{
-	border: rgb(240, 213, 65);
-	background-color:rgb(240, 213, 65) ;
+	border: var(--color-button);
+	background-color:var(--color-button);
 	border-radius: 5px;
 	text-decoration: none;
 	color: var(--color-link1);
@@ -424,8 +434,8 @@ section:nth-of-type(4) article:nth-of-type(3) h3{
 }
 
 section:nth-of-type(4) article:nth-of-type(3) a{
-	border: rgb(240, 213, 65);
-	background-color:rgb(240, 213, 65) ;
+	border: var(--color-button);
+	background-color:var(--color-button);
 	border-radius: 5px;
 	text-decoration: none;
 	color: var(--color-link1);
@@ -521,8 +531,60 @@ footer:nth-of-type(2) img{
 }
 
 /****************/
-/*  */
+/* pumpkins */
 /****************/
 
 
+.pumpkin1{
+	position: absolute;
+	margin-left: 1.5em;
+	width: 75px;
+	visibility: hidden
+}
+/*visibility: hidden;*/
+
+.pumpkin2{
+	position: absolute;
+	margin-left: 18em;
+	margin-top: 10em;
+	width: 75px;
+	visibility: hidden
+}
+
+
+.spooky{
+	position: absolute;
+	width: 55%;
+	transform: rotate(-15deg);
+	visibility: hidden
+}
+
+.poppetje{
+	position: absolute;
+	margin-left: 20em;
+	margin-top: -5em;
+	visibility: hidden
+}
+
+.pumpkinMode{
+	position: absolute;
+	width: 40px;
+	margin-top: -2em;
+}
+
+@keyframes poppetjeBuigen {
+	0%{
+		transform: rotate(0);
+	}
+
+	100%{
+		transform: rotate(-40deg);
+	}
+}
+
+div:nth-of-type(1) :hover{
+	animation-name: poppetjeBuigen;
+	animation-duration: 1s;
+	animation-iteration-count: 2;
+}
 

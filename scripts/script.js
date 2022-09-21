@@ -13,3 +13,5 @@ darkMode.addEventListener("click", verander);
 function verander() {
     deBody.classList.toggle('dark_mode');
 }
+
+
