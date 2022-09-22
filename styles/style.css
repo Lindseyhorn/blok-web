@@ -54,13 +54,12 @@ button, summary {
 }
 
 .halloween_mode{
-	--color-text:#111;
-	--color-background:rgb(255, 255, 255);
-	--color-link1: black;
-	--color-link2: rgb(255, 255, 255);
-	--color-stukjes: black;
-	--color-blokje:  rgba(243, 242, 242, 0.918);
 	--color-button:rgb(240, 150, 65);
+	--color-text:#fff;
+	--color-background:#000;
+	--color-link1: rgb(255, 255, 255);
+	--color-link2: rgb(0, 0, 0);
+	--color-blokje: white;
 }
 
 /****************/
@@ -534,12 +533,20 @@ footer:nth-of-type(2) img{
 /* pumpkins */
 /****************/
 
+.pumpkin{
+	visibility: hidden;
+	pointer-events: none;
+}
+
+.pumpkin.show{
+	visibility: visible;
+}
 
 .pumpkin1{
 	position: absolute;
 	margin-left: 1.5em;
 	width: 75px;
-	visibility: hidden
+	/* visibility: hidden; */
 }
 /*visibility: hidden;*/
 
@@ -548,7 +555,7 @@ footer:nth-of-type(2) img{
 	margin-left: 18em;
 	margin-top: 10em;
 	width: 75px;
-	visibility: hidden
+	/* visibility: hidden; */
 }
 
 
@@ -556,14 +563,14 @@ footer:nth-of-type(2) img{
 	position: absolute;
 	width: 55%;
 	transform: rotate(-15deg);
-	visibility: hidden
+	/* visibility: hidden; */
 }
 
 .poppetje{
 	position: absolute;
 	margin-left: 20em;
 	margin-top: -5em;
-	visibility: hidden
+	/* visibility: hidden; */
 }
 
 .pumpkinMode{
@@ -582,9 +589,9 @@ footer:nth-of-type(2) img{
 	}
 }
 
-div:nth-of-type(1) :hover{
+div[aria-label = 'beweeg']  {
 	animation-name: poppetjeBuigen;
-	animation-duration: 1s;
+	animation-duration: 3s;
 	animation-iteration-count: 2;
 }
 
