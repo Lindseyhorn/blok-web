@@ -44,16 +44,17 @@ button, summary {
 
 }
 
-.dark_mode {
+:root.dark_mode {
 	--color-text:#fff;
 	--color-background:#000;
 	--color-link1: rgb(255, 255, 255);
 	--color-link2: rgb(0, 0, 0);
 	--color-blokje: white;
+	--color-button:rgb(240, 213, 65);
 
 }
 
-.halloween_mode{
+:root.halloween_mode{
 	--color-button:rgb(240, 150, 65);
 	--color-text:#fff;
 	--color-background:#000;
@@ -568,7 +569,7 @@ footer:nth-of-type(2) img{
 
 .poppetje{
 	position: absolute;
-	margin-left: 20em;
+	margin-left: 16em;
 	margin-top: -5em;
 	/* visibility: hidden; */
 }
@@ -584,12 +585,16 @@ footer:nth-of-type(2) img{
 		transform: rotate(0);
 	}
 
-	100%{
+	50% {
 		transform: rotate(-40deg);
+	}
+
+	100%{
+		transform: rotate(0);
 	}
 }
 
-div[aria-label = 'beweeg']  {
+div.dansje {
 	animation-name: poppetjeBuigen;
 	animation-duration: 3s;
 	animation-iteration-count: 2;

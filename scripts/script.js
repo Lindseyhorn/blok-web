@@ -4,21 +4,6 @@ console.log("hi");
 /* bron : css tips van de docent*/
 
 
-/* darkmode*/
-
-var darkMode
-
-darkMode = document.querySelector('button');
-deBody= document.querySelector('body');
-
-darkMode.addEventListener("click", verander);
-
-function verander() {
-    deBody.classList.toggle('dark_mode');
-}
-
-
-
 /* halloween thema tevoorschijn na op knop drukken*/
 
 var pumpkinKnop = document.querySelector('.pumpkinMode');
@@ -39,20 +24,23 @@ pumpkinKnop.addEventListener('click', function () {
 
 /* halloween thema*/
 
-halloween = document.querySelector('.pumpkinMode');
-deBody= document.querySelector('body');
+var rootElement = document.querySelector(":root");
+
+var halloween = document.querySelector('.pumpkinMode');
+var deBody= document.querySelector('body');
+var beweeg = document.querySelector("main > div");
 
 halloween.addEventListener("click", verander);
 
 function verander() {
-    deBody.classList.toggle('halloween_mode');
+    rootElement.classList.toggle("halloween_mode");
+    beweeg.classList.toggle("dansje");
 }
 
+/* darkmode*/
+var darkMode = document.querySelector('button');
+darkMode.addEventListener("click", darkModeToggle);
 
-// var beweeg = document.querySelector("div[aria-label = 'beweeg']");
-// beweeg.addEventListener("click", heenEnWeer);
-// function heenEnWeer() {
-//   beweeg.classList.toggle("beweeg");
-// }
-
-
+function darkModeToggle() {
+    rootElement.classList.toggle('dark_mode');
+}
