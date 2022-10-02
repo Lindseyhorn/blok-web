@@ -314,14 +314,15 @@ standje 3/4 kon ik er nog wel goed mee omgaan. scrollen is wel wat lastiger. het
 - planning en het bij houden ging erg goed
 - ik heb geleerd hoe je beter kan werken met JS
 - ik heb geleerd om met Var (root elemneten), te werken. Deze heb ik nooit gebruikt. Hierdoor ging het maken van de darkmode en halloweenmode goed.
-- 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  - ik had geprobeerd een werkend formulier te maken voor het inschrijven van een neiuwsbrief en dat je dan pop up melding krijgt dat je bent aangemeld. dit lukte niet dus ik heb gespeeld met een SVG icon maken. Dit is wel gelukt, vond het alleen beetje apart dat het zoveel code had, maar ik dacht het zal wel goed zijn want het heeft gewerkt en mijn ontwerp in illustrator staat op mijn site.
+  <img src="readme-images/pogingtotnieuwsbrief.png" width="375px" alt="nieuwsbrief uitprobeersel">
+  - soms was JS wel lastig, en kon in zelf de fout niet vinden , maar dat is gelukkig opgelsost door de docent of de student assistent.
+  
 </details>
 
 
