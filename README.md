@@ -308,7 +308,13 @@ standje 3/4 kon ik er nog wel goed mee omgaan. scrollen is wel wat lastiger. het
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
-
+- de opbouw van de HTML bedenken en vanuit dat structuur pas vormegevn. dit is erg goed gegaan en heeft ook goed geholpen.
+- ik heb geleerd om animaties te maken, ook met SVG
+- positioneren lukt steeds beter.
+- planning en het bij houden ging erg goed
+- ik heb geleerd hoe je beter kan werken met JS
+- ik heb geleerd om met Var (root elemneten), te werken. Deze heb ik nooit gebruikt. Hierdoor ging het maken van de darkmode en halloweenmode goed.
+- 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
@@ -317,8 +323,6 @@ standje 3/4 kon ik er nog wel goed mee omgaan. scrollen is wel wat lastiger. het
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
-
-
 
 
 
