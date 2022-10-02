@@ -37,7 +37,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-https://www.wildlands.nl/ Deze site ga ik namaken.
+https://www.wildlands.nl/ Deze site ga ik namaken. Ik ga verder er een eiegen draai aan geven door verschillende elementen toe te voegen.
   
 
   #### Screenshot(s) van de eerste pagina (small screen): 
@@ -46,7 +46,7 @@ https://www.wildlands.nl/ Deze site ga ik namaken.
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Wildlands tickets pagina
-  <img src="readme-images/" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/pagina 2.png" width="375px" alt="omschrijving van de pagina">
   
  
 </details>
@@ -63,6 +63,7 @@ https://www.wildlands.nl/ Deze site ga ik namaken.
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
