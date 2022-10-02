@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Nog geen keuze kunnen maken
+ Surface plane
  
 </details>
 
@@ -37,14 +37,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.wildlands.nl/ Deze site ga ik namaken.
+  
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Wildlands home pagina 
-  <img src="readme-images/wildlands1.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/wildlands1.jpg" width="375px" alt="de home pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Wildlands tickets pagina
-  <img src="readme-images/wildlands2.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/" width="375px" alt="omschrijving van de pagina">
+  
  
 </details>
 

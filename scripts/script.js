@@ -4,7 +4,7 @@ console.log("hi");
 /* bron : css tips van de docent*/
 
 
-/* halloween thema tevoorschijn na op knop drukken*/
+/* halloween thema tevoorschijn na op knop drukken beetje hulp studentassistent*/
 
 var pumpkinKnop = document.querySelector('.pumpkinMode');
 console.log(pumpkinKnop);
@@ -22,7 +22,7 @@ pumpkinKnop.addEventListener('click', function () {
 
 
 
-/* halloween thema*/
+/* halloween thema*/ /* bron : studentassistent*/
 
 var rootElement = document.querySelector(":root");
 
@@ -44,6 +44,10 @@ darkMode.addEventListener("click", darkModeToggle);
 function darkModeToggle() {
     rootElement.classList.toggle('dark_mode');
 }
+
+
+
+
 
 
 
