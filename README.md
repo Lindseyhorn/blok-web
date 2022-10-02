@@ -60,6 +60,10 @@ https://www.wildlands.nl/ Deze site ga ik namaken. Ik ga verder er een eiegen dr
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+- buttons wat groter maken
+- tekst niet te klein
+- gekleurde knoppen
+- plaatjes ter ondersteuing helpen
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -74,8 +78,7 @@ De tap toets op het toetsenbord gaat wel goed. Dit is duidelijk en overzichtelij
 
 
   #### Motoriek (shocks, elastiekjes)
-  <img src="readme-images/ballon.HEIC" width="375px" alt="testen met ballon omhooghouden">
-  <img src="readme-images/elastiekjes.HEIC" width="375px" alt="testen met elastiekjes">
+  <img src="readme-images/test1ballon.jpg" width="375px" alt="testen met ballon omhooghouden">
   Hier korte omschrijving (met indien nodig afbeeldingen)
 Ballon voor concentratie:
 - je doelen zijn worden veel slomer uitgevoer, maar het is uiteindelijk wel gelukt
@@ -94,7 +97,7 @@ elastiekjes:
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-<img src="readme-images/bril.HEIC" width="375px" alt="testen met bril">
+<img src="readme-images/test1bril.jpg" width="375px" alt="testen met bril">
 - je moet soms inzoemen anders kun je het niet lezen
 - kost meer tijd om iets te vinden
 - bril met kelurencontarst was wel goed, het contrast van de website was er goed.
@@ -118,7 +121,6 @@ elastiekjes:
   In de eerste week ben ik eerst van de home pagina een creenshot gaan maken en vanuit daar bekijken hoe de HTML opgebouwd moet worden. Toen ik dat in XD had gedaan kon in zo gelijk mijn HTML structuur typen. Het is natuurlijk nog niet gestylt met CSS dus allesz ziet er nog niet uit. 
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
   Ik ben begonnen met het menu maken en positioneren. Het lastigste was om het logo op de voorgrond te krijgen ook T.o.v. de video er gelijk onder. Ik heb ervoor gezorgd dat het filmpje op de home pagina blijft afspelen net als op de originele site.
 
   ### wellicht nog een dynamisch deel (bijv filter): 
@@ -206,29 +208,54 @@ ik ben begonnen met kijken wat ik ging doen en heb gekozen voor die surface plan
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+- alt-tekst bij afbeeldingen toevoegen
+- likjes makkelijk aan te klikken
+- kleuren contrast is goed, goed gekozen kleuren.
+- was verast hoe goed het testen eigenlijk ging
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+- mijn website werkte goed met de screenreader. hij las alles netjes voor. 
+- hij las wel heel snel, maar dat ligt denk ik aan de instellingen.
+- linkjes snapt hij allemaal
+- afbeeldingen nog niet genoemd
+- vakje om het item staat verkeerd
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  - ik moet nog alt-teksten toevoegen
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+<img src="readme-images/toegankelijkheidtest2.png" width="375px" alt="toegankelijkheid">
+  
+- de tap-toets deed het erg goed, hij apkte alle linkjes en alle knoppen. die waren allemaal bereikbaar.
+- vakje om het item staat verkeerd
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+<img src="readme-images/test2aparaat.jpg.jpg" width="375px" alt="aparaat">
+<img src="readme-images/test2elastiekjes.jpg" width="375px" alt="bril">
+shocks:
+standje 3/4 kon ik er nog wel goed mee omgaan. scrollen is wel wat lastiger. het duurt iets langer voordat je ergens anders op ene pagina bent. button grootte was wel goed. Ik kon ze namelijk wel aanklikken. kleine linkjes zijn alleen wel lastig.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+- linkjes groter oppervalk om op te klikken
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
+  <img src="readme-images/test2bril.jpg" width="375px" alt="testen met bril">
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  met de eerste bril die met de gele glazen, was alles goed te lezen en het kleurencontrast goed.
+  bril 2 met de witte velkjes, werd al iets lastiger maar het was voor mij nog steeds te lezen en te begrijpen.
+
+<img src="readme-images/kleurenblind1.jpg" width="375px" alt="">
+<img src="readme-images/kleurenblind2.jpg" width="375px" alt="">
+  met de instellignen in de browser hebben we getest met verschillende soorten kleuren blind. Hierdoor kwam ik erahcter dat de kleurencontrasten goed blijven en het nog overzichtelijk is.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  - duidelijke kleuren
+  - duidelijke knoppen 
+  tekst niet te klein
 
 </details>
 
@@ -248,20 +275,21 @@ ik ben begonnen met kijken wat ik ging doen en heb gekozen voor die surface plan
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1      | student 2   ik                       | student 3    | 
+  | ---            | ---                                  | ---          |
+  | site           | Overige keuzes van                   | laatste kiekjes      | 
+  | laatste kleine dingetjes| surface plane               | nog een punt | 
+  | ...            | wat nog handig is om te doen         | ...          | ...              
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - nog steeds alt-tekst toevoegen
+  - kijken naar SVG plaatjes voor verder werken
+  - ziet er al goed uit, en weet al meer dan 4 weken geleden
+  - verschilende states uitwerken
+  - bekijk beoordelingsformulier nog
 
 </details>
 
