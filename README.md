@@ -234,7 +234,6 @@ ik ben begonnen met kijken wat ik ging doen en heb gekozen voor die surface plan
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-<img src="readme-images/test2aparaat.jpg.jpg" width="375px" alt="aparaat">
 <img src="readme-images/test2elastiekjes.jpg" width="375px" alt="bril">
 shocks:
 standje 3/4 kon ik er nog wel goed mee omgaan. scrollen is wel wat lastiger. het duurt iets langer voordat je ergens anders op ene pagina bent. button grootte was wel goed. Ik kon ze namelijk wel aanklikken. kleine linkjes zijn alleen wel lastig.
@@ -303,8 +302,11 @@ standje 3/4 kon ik er nog wel goed mee omgaan. scrollen is wel wat lastiger. het
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  
+<img src="readme-images/eind1.png.png" width="375px" alt="halloween mode">
+<img src="readme-images/eind2.png.png" width="375px" alt="svg ">
+<img src="readme-images/eind3.png.png" width="375px" alt="2e pagina">
+<img src="readme-images/eind4.png.png" width="375px" alt="hover state">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
